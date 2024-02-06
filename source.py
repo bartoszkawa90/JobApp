@@ -12,6 +12,7 @@ class PagePracujpl(Pages):
     # Pracuj.pl
     page = 'https://pracuj.pl'
 
+    @dataclass
     class Xpath:
         accept_button = '//*[@id="__next"]/div[7]/div/div/div[3]/div/button[1]'
 
@@ -31,11 +32,11 @@ class PagePracujpl(Pages):
         search_standard = '//*[@id="relative-wrapper"]/div[1]/div/div/div/div[2]/div/button'
         articles_table = '//*[@id="relative-wrapper"]/div[2]/div[2]/div[2]/div[4]/div[2]'
 
+    @dataclass
     class Css:
         # search bar clear css selectors
         clear_position_standard = '#relative-wrapper > div.wx9saw > div > div > div > div.core_bvgive4 > div:nth-child(1) > div > div > div > div > span > svg > path'
         clear_localization_standard = '#relative-wrapper > div.wx9saw > div > div > div > div.core_bvgive4 > div:nth-child(3) > div > div > div > div > span > svg > path'
-
 
         # clear bar list
         clear_bar_list = [clear_position_standard, clear_localization_standard]
