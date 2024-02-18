@@ -37,7 +37,7 @@ class PageOperations:
 
 class Pracujpl(PageOperations):
 
-    def search_frontpage(self, position: str = None, category: str = None, localization: str = None, range_in_km: str = None):
+    def search_front_page(self, position: str = None, category: str = None, localization: str = None, range_in_km: str = None):
         if self.page_obj.page == Pages.pracujpl:
             self.set_value_by_xpath(self.page_obj.Xpath.position_front, position)
             time.sleep(2)
