@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.image-container {
+   display: flex;
+   justify-content: left;
+   align-items: center;
+}
+
+/*.header {*/
+/*  background-color: #833471; !* Replace with your preferred color code *!*/
+/*  color: #fff; !* This sets the text color to white *!*/
+/*  padding: 10px;*/
+/*  text-align: center;*/
+/*}*/
