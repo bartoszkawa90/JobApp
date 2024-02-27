@@ -17,7 +17,7 @@ class Header extends Component{
             <header style={this.headerStyle}>
                 <div style={{alignItems: "center"}}>
                     <div className="image-container">
-                        <img src={logo} alt="logo" alt="Round Image" width={this.availableWidth / 4} height={this.availableHeight / 6}
+                        <img src={logo} alt="logo" alt="Round Image" width={this.availableWidth / 5} height={this.availableHeight / 6}
                              style={{margin: "20px", marginTop: "0px", borderRadius: '50%'}}/>
                         <h1 style={{margin: "20px", marginTop: "20px"}}> Jobs Offers from some popular websites </h1>
                         <hr/>
